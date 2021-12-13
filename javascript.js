@@ -9,7 +9,7 @@ function loadCountryInfo(){
     .then(data => {
     document.getElementById("info").innerHTML = `Nombre común: ${data[0].name.common}
 													<br>Nombre oficial: ${data[0].name.official}
-													<br>Modena: ${data[0].currencies.EUR.name}
+													<br>Moneda: ${data[0].currencies.EUR.name}
 													<br>Simbolo de la modena: ${data[0].currencies.EUR.symbol}`;
     })
 }
