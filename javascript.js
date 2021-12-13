@@ -10,7 +10,7 @@ function loadCountryInfo(){
     document.getElementById("info").innerHTML = `Nombre común: ${data[0].name.common}
 													<br>Nombre oficial: ${data[0].name.official}
 													<br>Moneda: ${data[0].currencies.EUR.name}
-													<br>Simbolo de la modena: ${data[0].currencies.EUR.symbol}`;
+													<br>Simbolo de la moneda: ${data[0].currencies.EUR.symbol}`;
     })
 }
 function loadCountryFlag(){
